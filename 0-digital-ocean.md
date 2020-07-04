@@ -13,22 +13,19 @@ These instruction will walk you through using Digital Ocean (http://digitalocean
 Signup is immediate - just provide your email address and a password of your choosing and you're in!
 
 * Choose "Manage, Droplets" from the left hand sidebar. (a "droplet" is Digital Ocean's cute name for a server!)
-* Select the image "Ubuntu 18.04"
+* Select the image "Ubuntu 18.04 LTS" or "Ubuntu 20.04 LTS"
 * For plan, choose "Starter"
-* You'll be prompted to start a $40/m plan, but select "Show all plans', and select the $5/mo one - that's fine for this course.
-* You don't need to add any block storage
-* Select whichever region you wish. 
-* Authentication - choose "One time password"
-* Choose a hostname, because the default ones are pretty ugly
+* You'll be prompted to start a $40/m plan, but select "Show all plans", and select the $5/mo one - that's fine for this course.
+* You don't need to add any block storage.
+* Select whichever region you wish.
+* Authentication - choose "Password"
+* Choose a strong password for the root account.
+* Note that since the server is on the Internet it will be under immediate attack from bots attempting to "brute force" the root password. Make it strong!
+* Choose a hostname, because the default ones are pretty ugly.
 
-## Changing the root password
-You should have received a password for the "root" user in your email. Select your droplet and "Access" from the left hand sidebar and you should be able to login to the console using this. Use the login name "root", and note that the password won't show as you type or paste it.
+## Logging in for the first time
 
-You'll be immediately prompted to change your password.
-
-(you're first asked for the *current* password, then asked to provide a new one of your own and then to confirm this)
-
-Be sure to create a long and secure password - this is important, because your server is on the open Internet and will be under immediate and sustained attack from bots attempting to "brute force" the root password.
+Select your droplet and "Access" from the left hand sidebar and you should be able to login to the console using this. Use the login name "root", and the password you selected. Note that the password won't show as you type or paste it. 
 
 ## Creating a working admin account
 
